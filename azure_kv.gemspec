@@ -9,13 +9,12 @@ Gem::Specification.new do |spec|
   spec.email         = ["miroslav.kralik@serviceboard.to"]
 
   spec.summary       = "API wrapper for Azure Key Vault"
-  spec.description   = "The Azure Key Vault REST APIs are used to manage secrets in Azure Key Vault. This gem provides a simple interface to the REST APIs."
+  spec.description   = "The Azure Key Vault REST APIs are used to manage secrets in Azure Key Vault.
+                        This gem provides a simple interface to the REST APIs."
   spec.homepage      = "https://github.com/serviceboard/azure_kv"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7.4")
   spec.add_dependency "faraday", "~> 2.2.0"
-
-  #spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/serviceboard/azure_kv"

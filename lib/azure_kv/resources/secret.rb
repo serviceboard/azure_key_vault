@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 module AzureKV
+  # Secret resource class
   class SecretResource < Resource
     def create(name:, value:, content_type:, **attributes)
       AzureKV.logger.info "Creating secret #{name}"

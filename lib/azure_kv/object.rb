@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 require "ostruct"
 
 module AzureKV
+  # Object class
   class Object < OpenStruct
     def initialize(attribute = {})
       super(attribute)
@@ -12,7 +15,7 @@ module AzureKV
       attribute.is_a?(Hash) ? Object.new(attribute) : attribute
     end
 
-    def respond_to_missing?(method, include_private = false)
+    def respond_to_missing?(_method, _include_private = false)
       true
     end
   end

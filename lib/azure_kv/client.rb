@@ -1,12 +1,15 @@
+# frozen_string_literal: true
+
 require "faraday"
 
 module AzureKV
+  # The API wrapper client
   class Client
     # Define the same set of accessors as the AzureKV module
     attr_accessor(*Configuration::VALID_CONFIG_KEYS)
     attr_reader :adapter, :access_token
 
-    def initialize(options={}, adapter: Faraday.default_adapter, access_token: nil, stubs: nil)
+    def initialize(options = {}, adapter: Faraday.default_adapter, access_token: nil, stubs: nil)
       # Merge the config values from the module and those passed
       # to the client.
       merged_options = AzureKV.options.merge(options)
@@ -21,7 +24,7 @@ module AzureKV
       @stubs = stubs
 
       @access_token = nil
-      @access_token = access_token ? access_token : fetch_token
+      @access_token = access_token || fetch_token
     end
 
     def secret
@@ -38,6 +41,7 @@ module AzureKV
     end
 
     private
+
     def fetch_token
       base_url = "https://login.microsoftonline.com/#{tenant_id}/"
       token_url = "oauth2/v2.0/token"
@@ -54,7 +58,7 @@ module AzureKV
         conn.request :url_encoded
         conn.response :json, content_type: "application/json"
         conn.adapter adapter, @stubs
-      end.post(token_url, body).body['access_token']
+      end.post(token_url, body).body["access_token"]
 
       @access_token
     end

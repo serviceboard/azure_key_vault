@@ -1,18 +1,24 @@
+# frozen_string_literal: true
+
 module AzureKV
+  # Error class for AzureKV
   class Error
     class ConnectionError < StandardError # :nodoc:
       attr_reader :response, :status
 
       def initialize(response, message = nil)
-        if(response.respond_to?(:body))
+        super(message)
+
+        if response.respond_to?(:body)
           @response = Object.new response.body["error"]
           @status = response.status
         else
-          @response = Object.new code: "Connection Failed", message: "Connection parameters for Azure Key Vault are invalid"
+          @response = Object.new code: "Connection Failed",
+                                 message: "Connection parameters for Azure Key Vault are invalid"
           @status = 503
         end
 
-        @message  = message
+        @message = message
       end
 
       def to_h
