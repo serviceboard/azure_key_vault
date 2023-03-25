@@ -1,1 +1,68 @@
 
+{"time":"2023-03-25 14:37:28","level":"INFO ","pid":"#47798","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 14:37:40","level":"INFO ","pid":"#47798","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:39:44","level":"INFO ","pid":"#47798","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:40:12","level":"INFO ","pid":"#47798","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:40:46","level":"INFO ","pid":"#47798","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:40:48","level":"INFO ","pid":"#47798","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:43:14","level":"INFO ","pid":"#47994","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 14:43:19","level":"INFO ","pid":"#47994","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:43:45","level":"INFO ","pid":"#48131","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 14:43:58","level":"INFO ","pid":"#48131","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:44:25","level":"INFO ","pid":"#48131","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:45:11","level":"INFO ","pid":"#48267","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 14:45:20","level":"INFO ","pid":"#48267","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:45:32","level":"INFO ","pid":"#48267","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:45:38","level":"INFO ","pid":"#48267","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:45:46","level":"INFO ","pid":"#48267","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:45:56","level":"INFO ","pid":"#48267","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:46:49","level":"INFO ","pid":"#48445","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 14:46:56","level":"INFO ","pid":"#48445","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:47:03","level":"INFO ","pid":"#48445","message":"Retrieving secrets"}
+{"time":"2023-03-25 14:58:41","level":"INFO ","pid":"#49328","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 14:58:50","level":"INFO ","pid":"#49328","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:02:06","level":"INFO ","pid":"#49554","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 15:02:14","level":"INFO ","pid":"#49554","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:03:00","level":"INFO ","pid":"#49685","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 15:03:08","level":"INFO ","pid":"#49685","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:06:39","level":"INFO ","pid":"#49906","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 15:06:47","level":"INFO ","pid":"#49906","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:10:14","level":"INFO ","pid":"#50195","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 15:10:22","level":"INFO ","pid":"#50195","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:11:44","level":"INFO ","pid":"#50342","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 15:11:51","level":"INFO ","pid":"#50342","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:18:20","level":"INFO ","pid":"#50755","message":"Deleting secret test"}
+{"time":"2023-03-25 15:18:20","level":"INFO ","pid":"#50755","message":"Retrieving secret test"}
+{"time":"2023-03-25 15:18:20","level":"INFO ","pid":"#50755","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:19:41","level":"INFO ","pid":"#50892","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:19:41","level":"INFO ","pid":"#50892","message":"Deleting secret test"}
+{"time":"2023-03-25 15:19:41","level":"INFO ","pid":"#50892","message":"Retrieving secret test"}
+{"time":"2023-03-25 15:20:12","level":"INFO ","pid":"#50957","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:20:12","level":"INFO ","pid":"#50957","message":"Retrieving secret test"}
+{"time":"2023-03-25 15:20:12","level":"INFO ","pid":"#50957","message":"Deleting secret test"}
+{"time":"2023-03-25 15:20:23","level":"INFO ","pid":"#51010","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:20:23","level":"INFO ","pid":"#51010","message":"Retrieving secret test"}
+{"time":"2023-03-25 15:20:23","level":"INFO ","pid":"#51010","message":"Deleting secret test"}
+{"time":"2023-03-25 15:20:41","level":"INFO ","pid":"#51053","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:20:41","level":"INFO ","pid":"#51053","message":"Retrieving secret test"}
+{"time":"2023-03-25 15:20:41","level":"INFO ","pid":"#51053","message":"Deleting secret test"}
+{"time":"2023-03-25 15:22:02","level":"INFO ","pid":"#51145","message":"Retrieving secret test"}
+{"time":"2023-03-25 15:22:02","level":"INFO ","pid":"#51145","message":"Retrieving secrets"}
+{"time":"2023-03-25 15:22:02","level":"INFO ","pid":"#51145","message":"Deleting secret test"}
+{"time":"2023-03-25 18:28:29","level":"INFO ","pid":"#53213","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 18:28:32","level":"INFO ","pid":"#53213","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:28:51","level":"INFO ","pid":"#53213","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:29:11","level":"INFO ","pid":"#53213","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:33:34","level":"INFO ","pid":"#53653","message":"Fetching token from https://login.microsoftonline.com/d2b6e457-f05a-43df-b3d4-83701b8594b6/oauth2/v2.0/token"}
+{"time":"2023-03-25 18:33:37","level":"INFO ","pid":"#53653","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:34:57","level":"INFO ","pid":"#53715","message":"Deleting secret test"}
+{"time":"2023-03-25 18:34:57","level":"INFO ","pid":"#53715","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:34:57","level":"INFO ","pid":"#53715","message":"Retrieving secret test"}
+{"time":"2023-03-25 18:35:42","level":"INFO ","pid":"#53804","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:35:42","level":"INFO ","pid":"#53804","message":"Deleting secret test"}
+{"time":"2023-03-25 18:35:42","level":"INFO ","pid":"#53804","message":"Retrieving secret test"}
+{"time":"2023-03-25 18:52:44","level":"INFO ","pid":"#54020","message":"Retrieving secret test"}
+{"time":"2023-03-25 18:52:44","level":"INFO ","pid":"#54020","message":"Retrieving secrets"}
+{"time":"2023-03-25 18:54:45","level":"INFO ","pid":"#54236","message":"Deleting secret test"}
+{"time":"2023-03-25 18:54:45","level":"INFO ","pid":"#54236","message":"Retrieving secret test"}
+{"time":"2023-03-25 18:54:45","level":"INFO ","pid":"#54236","message":"Retrieving secrets"}

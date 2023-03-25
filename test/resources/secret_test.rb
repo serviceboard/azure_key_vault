@@ -1,8 +1,16 @@
 # frozen_string_literal: true
 
-require "test_helper"
+require_relative "../test_helper"
 
 class SecretResourceTest < Minitest::Test
+  def test_retrieve_all
+    stub = stub_request("secrets", response: stub_response(fixture: "secret/retrieve_all"))
+    client = AzureKV::Client.new(adapter: :test, access_token: "mybearertoken", stubs: stub)
+    secrets = client.secret.retrieve_all
+
+    assert_equal 3, secrets.length
+  end
+
   def test_retrieve
     secret_name = "test"
     stub = stub_request("secrets/#{secret_name}", response: stub_response(fixture: "secret/retrieve"))

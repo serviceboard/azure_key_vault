@@ -22,6 +22,7 @@ Or install it yourself as:
 
 ```ruby
 client = AzureKV::Client.new
+client.secret.retrieve_all
 client.secret.retrieve(name: 'my_secret')
 client.secret.create(name: 'my_secret', value: 'my_secret_value', content_type: 'token')
 client.secret.update(name: 'my_secret', value: 'my_secret_value')
